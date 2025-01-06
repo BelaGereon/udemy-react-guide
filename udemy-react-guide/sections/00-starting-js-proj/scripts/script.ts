@@ -1,3 +1,5 @@
-import { apiKey } from "./util";
+import * as util from "./util";
 
-console.log(apiKey);
+console.log(util.apiKey);
+
+const url = util.url;
